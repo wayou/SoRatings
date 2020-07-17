@@ -1,12 +1,18 @@
 # SoRatings
+
 A chrome extension that highlights the SO results in google search..
 
-https://chrome.google.com/webstore/detail/so-google-enhancer/anagaadjinebjhjfhfgbjchdbgbedncg/reviews?hl=en-US&gl=US
+[![](./download.png)](https://chrome.google.com/webstore/detail/so-google-enhancer-new/eknidhgaekkpddkolhfgklibeimennjg/related?hl=en&authuser=0)
 
+## Preview
 
-this extension needs constant maintenance since it depends on layout of search results AND SO page.
-Please push fixes and better approaches.
+![](./promotion.png)
 
-You are welcome to create variations, just mention this original in description. All in all it will give more choices to developers. 
+## Notes
 
-Let me know if you create variation I will include it in the upcoming list.
+This is an improve for the original chrome extension [SO Google Enhancer](https://github.com/wayou/SoRatings), thx @techsin for the work.
+
+improvements:
+
+- fix the filter option for `onHeadersReceived` which leads to the fail of loading content form stackoverflow
+- insteadof only works on `stackoverflow.com|stackexchange.com`, add supporting for all stackexchange domains. The domains are taken from here: https://meta.stackexchange.com/a/81383/335230.
