@@ -10,7 +10,7 @@ A chrome extension that highlights the SO results in google search..
 
 ## Notes
 
-This is an improve for the original chrome extension [SO Google Enhancer](https://github.com/wayou/SoRatings), thx @techsin for the work.
+This is an improve for the original chrome extension [SO Google Enhancer](https://github.com/techsin/SoRatings), thx @techsin for the work.
 
 improvements:
 
