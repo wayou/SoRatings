@@ -88,9 +88,9 @@ function fetchLinks(eles) {
         addSplitIcon();
       })
       .fail(function (err) {
-        console.error(
-          `[so-google-enhancer] get content for ${url} failed with error:${err}`
-        );
+        // console.error(
+        //   `[so-google-enhancer] get content for ${url} failed with error:${err}`
+        // );
       });
 
     function addSplitIcon() {

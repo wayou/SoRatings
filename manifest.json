@@ -3,7 +3,7 @@
 
   "name": "SO Google Enhancer (new)",
   "description": "This extension shows SO questions ratings on side and if it has best answer selected.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "icons": { "128": "icon.png" },
   "author": "techsin",
   "permissions": [

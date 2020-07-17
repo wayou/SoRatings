@@ -19,21 +19,23 @@ chrome.webRequest.onHeadersReceived.addListener(
   },
   {
     urls: [
-      //   "<all_urls>",
-      "*://*.askubuntu.com/*",
-      "*://*.mathoverflow.net/*",
-      "*://*.blogoverflow.com/*",
-      "*://*.serverfault.com/*",
-      "*://*.stackoverflow.com/*",
-      "*://*.stackexchange.com/*",
-      "*://*.stackapps.com/*",
-      "*://*.stackmod.blog/*",
-      "*://*.stackoverflow.blog/*",
-      "*://*.stackoverflowbusiness.com/*",
-      "*://*.superuser.com/*",
-      "*://*.tex-talk.net/*",
-      "*://*.thesffblog.co/*",
+      // omit this or the filter wont work
+      "<all_urls>",
+      // "*://*.askubuntu.com/*",
+      // "*://*.mathoverflow.net/*",
+      // "*://*.blogoverflow.com/*",
+      // "*://*.serverfault.com/*",
+      // "*://*.stackoverflow.com/*",
+      // "*://stackoverflow.com/*",
+      // "*://*.stackexchange.com/*",
+      // "*://*.stackapps.com/*",
+      // "*://*.stackmod.blog/*",
+      // "*://*.stackoverflow.blog/*",
+      // "*://*.stackoverflowbusiness.com/*",
+      // "*://*.superuser.com/*",
+      // "*://*.tex-talk.net/*",
+      // "*://*.thesffblog.co/*",
     ],
   },
-  ["blocking", "responseHeaders"]
+  ["blocking", "responseHeaders", "extraHeaders"]
 );
