@@ -24,7 +24,6 @@ chrome.webRequest.onHeadersReceived.addListener(
       "*://*.blogoverflow.com/*",
       "*://*.serverfault.com/*",
       "*://*.stackoverflow.com/*",
-      "*://stackoverflow.com/*",
       "*://*.stackexchange.com/*",
       "*://*.stackapps.com/*",
       "*://*.stackmod.blog/*",
