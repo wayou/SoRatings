@@ -115,5 +115,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 so-google-enhancer.pem
+so-google-enhancer.pem1
 so-google-enhancer.zip
 .DS_Store
